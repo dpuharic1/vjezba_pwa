@@ -1,8 +1,9 @@
 <?php
-$naslov = "PHP dokument";
+$naslov = "PHP dokument - vjezba 1c";
 $autor = "Duje Puharić";
-$link_href = "https://hrt.hr";
-$link_text = "Posjetite HRT";
+$opis = "Ova stranica demonstrira upotrebu PHP varijabli i HTML strukture s dinamičkim sadržajem.";
+$linkInfo = "https://www.php.net";
+$linkNatrag = "vjezba1b.php";
 ?>
 <!DOCTYPE html>
 <html lang="hr">
@@ -125,14 +126,15 @@ $link_text = "Posjetite HRT";
 <body>
   <main class="wrap">
     <h1><?php echo htmlspecialchars($naslov); ?></h1>
+    <p><?php echo htmlspecialchars($opis); ?></p>
     <p>Ovu stranicu izradio/la je <strong><?php echo htmlspecialchars($autor); ?></strong>.</p>
     <p>
-      <a class="btn" href="<?php echo htmlspecialchars($link_href); ?>"
-         target="_blank" rel="noopener"><?php echo htmlspecialchars($link_text); ?></a>
+      <a class="btn" href="<?php echo htmlspecialchars($linkInfo); ?>"
+         target="_blank" rel="noopener">Saznaj vise o PHP-u</a>
+      <a class="btn" href="<?php echo htmlspecialchars($linkNatrag); ?>">Natrag na vjezba 1b</a>
     </p>
     <footer>&copy; <?php echo date('Y'); ?> - Demo za PHP</footer>
   </main>
 </body>
 </html>
-
-<!-- Naziv datoteke: vjezba1b.php -->
+<!-- Naziv datoteke: vjezba1c.php -->
