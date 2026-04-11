@@ -125,7 +125,7 @@ $link_text = "Posjetite HRT";
 <body>
   <main class="wrap">
     <h1><?php echo htmlspecialchars($naslov); ?></h1>
-    <p>Ovu stranicu izradio/la je <strong><?php echo htmlspecialchars($autor); ?></strong>.</p>
+    <p>Ovu stranicu izradio je <strong><?php echo htmlspecialchars($autor); ?></strong>.</p>
     <p>
       <a class="btn" href="<?php echo htmlspecialchars($link_href); ?>"
          target="_blank" rel="noopener"><?php echo htmlspecialchars($link_text); ?></a>

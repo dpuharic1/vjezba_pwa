@@ -127,7 +127,7 @@ $linkNatrag = "vjezba1b.php";
   <main class="wrap">
     <h1><?php echo htmlspecialchars($naslov); ?></h1>
     <p><?php echo htmlspecialchars($opis); ?></p>
-    <p>Ovu stranicu izradio/la je <strong><?php echo htmlspecialchars($autor); ?></strong>.</p>
+    <p>Ovu stranicu izradio je <strong><?php echo htmlspecialchars($autor); ?></strong>.</p>
     <p>
       <a class="btn" href="<?php echo htmlspecialchars($linkInfo); ?>"
          target="_blank" rel="noopener">Saznaj vise o PHP-u</a>
